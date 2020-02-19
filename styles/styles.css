@@ -1,0 +1,92 @@
+/* You can set a global style for a particular tag. In this example, we are setting a global style for all <p> tags in our document. */
+p{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* We can target specific elements using the '#' and the id value assigned to the element. Below, we are targeting the <div id="header"> element in our page. All the styles defined, will apply to this div.  */
+#header{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+} 
+#container{
+    width: 90%; 
+    margin: 0 auto;
+}
+#footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+#footer p{
+    color: maroon;
+}
+#nav{
+    background-color: rgb(173, 216, 230);
+    padding: 10px;
+}
+/* You can target specific tags in specific parts of your web page. Below, I am targeting all the <a> tags that are inside of my element with the id nav. No other anchor tag on the page will inherit this styling.*/
+#nav a{
+    color: azure;
+    text-decoration: none;
+    padding: 10px;
+}
+/* Bonus: This is used to apply some amount of animation like attributes to the anchor tags. It is specifying that the background colour should change, when the mouse hovers on it.  */
+#nav a:hover{
+    background-color: blue;
+}
+h1{
+    color: brown; 
+    font-family: Arial;
+}
+h2,h3,h4,h5,h6{
+    color: darkblue;
+    font-family: Arial;
+}
+
+/* Table Styles */
+/* CSS Class */
+.infotable{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.infotable td{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    width: 50%;
+}
+
+.listtable{
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    margin: 15px;
+}
+.listtable td, .listtable th{
+    width: 20%;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;;
+}
+.centertitle{
+    text-align: center;
+}
+.form-control{
+    width: 100%;
+    padding: 10px 5px ;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(173, 216, 230);
+}
+.btn-submit{
+    background-color: rgb(173, 216, 230);
+    border: none;
+    color: azure;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin: 5px 3px;
+    cursor: pointer;
+    width: 100%;
+}

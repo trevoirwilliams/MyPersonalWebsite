@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <div id="container">
+
+        <!-- Header -->
+        <div id="header">
+            <h1>My First HTML Web Page</h1>
+            <h3>This is a Sub Heading</h3>
+        </div>
+        <!-- Header End -->
+
+        <!-- Nav Start -->
+        <div id="nav">
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About</a> | 
+            <a href="contact_us.html">Contact Us</a> 
+        </div>
+        <!-- Nav End -->
+
+        <!-- Content -->
+        <div id="content">
+            <h1>Contact Us Page</h1>
+            <form action="post_contact.html">
+                <table class="infotable">
+                    <tr>
+                        <td>
+                            <label for="firstname">First Name</label>
+                        </td>
+                        <td>
+                            <input class="form-control" type="text" id="firstname" name="firstname"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lastname">Last Name</label>
+                        </td>
+                        <td>
+                            <input class="form-control" type="text" id="lastname" name="lastname"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email Address</label>
+                        </td>
+                        <td>
+                            <input class="form-control" type="email" id="email" name="emailaddress"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="phone">Phone Number</label>
+                        </td>
+                        <td>
+                            <input class="form-control" type="tel" id="phone" name="phone"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>Select Gender</span>
+                        </td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male" />
+                            <label for="male">Male</label> 
+                            <input type="radio" id="female" name="gender" value="female" />
+                            <label for="female">Female</label> <br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="reasons">Select Reason For Contact</label>
+                        </td>
+                        <td>
+                            <select class="form-control" id="reasons" name="reasons">
+                                <option value="complaint">Complaint</option>
+                                <option value="query">Query</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="comments">Comment</label>
+                        </td>
+                        <td>
+                            <textarea class="form-control" id="comments" name="comments" rows="5" cols="20"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" class="btn-submit" value="Submit"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <form action="post_contact.html">
+                <!-- First Name -->
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname"/>
+                <br/>
+                <!-- Last Name -->
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname"/>
+                <br/>
+                <!-- Email Address -->
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="emailaddress"/>
+                <br/>
+                <!-- Phone Number -->
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"/>
+                <br/>
+                <!-- Gender -->
+                <span>Select Gender</span><br/>
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label> <br/>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label> <br/>
+                <!-- Reason for Contact -->
+                <label for="reasons">Select Reason For Contact</label> <br/>
+                <select id="reasons" name="reasons">
+                    <option value="complaint">Complaint</option>
+                    <option value="query">Query</option>
+                    <option value="other">Other</option>
+                </select>
+                <br/>
+                <!-- Comments -->
+                <label for="comments">Comment</label> <br/>
+                <textarea id="comments" name="comments" rows="5" cols="20"></textarea>
+                <br/>
+                <!-- Submit -->
+                <input type="submit" value="Submit"/>
+            </form>
+            
+            
+           
+            
+        </div>
+        <!-- End Content -->
+
+        <!-- Footer -->
+        <div id="footer">
+            <h3>Done in Partial Fulfilment of Introduction to Web Technologies</h3>
+            <p>&copy; All Rights Reserved</p>
+        </div>
+        <!-- End Footer -->
+    </div>
+</body>
+</html>
